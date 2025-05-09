@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #f6f7fb;
+    color: #000000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #e8e8e8;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .auth .login {
+    margin-right: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth .signup {
+    background-color: #000000;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+  }
+  
+  .content {
+    max-width: 1000px;
+  }
+  
+  .content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .content h1 span {
+    color: #000000;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #000000;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .image img {
+    max-width: 480px;
+    width: 100%;
+  }
+  .feature-purple {
+    padding: 60px 80px;
+    text-align: center;
+    background-image: url(newtes.jpg);
+  }
+  
+  .feature-purple h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .feature-purple .subtitle {
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    width: 250px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #000000;
+    margin: 15px 0 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .highlight-purple {
+    padding: 100 80px;
+    background-color: #ede9fe;
+  }
+  
+  .highlight-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  
+  .highlight-image {
+    width: 50%;
+  }
+  
+  .highlight-text {
+    width: 45%;
+  }
+  
+  .highlight-text h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .highlight-text p {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight-text button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .hero {
+    padding: 100px 80px;
+    background-color: #f9f9f9;
+  }
+  
+  .feature-purple {
+    padding: 100px 80px;
+    background-color: #f4f0ff;
+  }
+  
+  .highlight-purple {
+    padding: 120px 80px;
+    background-color: #e0e0e0;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  .site-footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 60px 80px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .social-icons a {
+    margin-right: 12px;
+    font-size: 18px;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 16px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: white;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    background-color: #4b5563;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    width: 180px;
+  }
+  
+  .subscribe-form button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 0 12px;
+    cursor: pointer;
+  }
+  
+  .logo-icon {
+    color: #10b981;
+    margin-right: 6px;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    background: #e6e6e6;
+    padding: 20px;
+    z-index: 100;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff0000; /* Saat hover */
+  }
+  .auth a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .auth a:hover {
+    color: #ff0000;
+  }
+  
+  
